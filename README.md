@@ -1,6 +1,6 @@
-# Extended Kalman Filter
+# Vehicle State Estimation
 
-This repository has the design and implementation of an extended kalman filter used for vehicle state estimation and localization.
+This repository has the design and implementation of a linear Kalman Filter, an extended Kalman filter,  an Unscented Kalman Filter,  and a Cubature Kalman Filter used for vehicle state estimation and localization.
 
 The vehicle state estimation and localization is calculated using two [Intertial Measurement Units](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf) and one [GPS sensor](https://www.swiftnav.com/latest/piksi-multi-hw-specification). 
 
