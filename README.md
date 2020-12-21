@@ -6,6 +6,7 @@ The vehicle state estimation and localization is calculated using two [Intertial
 
 ## Dependecies
 To install all the dependencies, please run the following command below:
+
 `pip install -r requirements.txt`
 
 ## Installation Guide
