@@ -3,12 +3,7 @@ model_configuration:
   motion_model: CT              # Type of motion model
   covariance_matrix: 0          # Covariance matrix for the motion model
 measurement_configuration:
-  measurement_variables: 0      # Variables to be considered for the measurement model
   covariance_matrix: 0          # Covariance matrix for the measurement model
-data_configuration:
-  data_directory: data          # Relative path to the data directory
-  data_variables: 0             # Variables to be considered from the data file
 output_configuration:
   animation: True               # Set to True if animation needs to be displayed at the end
   save_output: True             # Set to True if output needs to be saved at the end
-  output_directory: output      # Relative path to the output directory
