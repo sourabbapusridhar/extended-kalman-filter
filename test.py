@@ -3,6 +3,7 @@
 import os
 import argparse
 import numpy as np
+from kalman import state_estimator
 from utils import read_yaml, write_yaml
 
 def test_vehicle_estimator(configurationFilePath):
@@ -54,6 +55,9 @@ def test_vehicle_estimator(configurationFilePath):
         print("Current Configuration is as follows: ")
         for key, value in overallConfiguration.items():
             print("{}: {}".format(key,value))
+        print("***********************************************")
+
+        vehicleStateEstimator = state_estimator(overallConfiguration["model_configuration"]["motion_model"])
 
         
 
